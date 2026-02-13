@@ -28,22 +28,17 @@ AI Engineer specializing in building **production-grade intelligent systems** an
 
 ---
 
-## 🛠 Core Stack
+## 🛠 Core Technology
 
-**Languages:**  
-`Python` • `Dart` • `TypeScript` • `JavaScript` • `Swift`
-
-**AI/ML:**  
-`TensorFlow` • `PyTorch` • `Scikit-Learn` • `Transformers`
-
-**Mobile:**  
-`Flutter` • `Firebase` • Clean Architecture • State Management
-
-**Backend & Cloud:**  
-`FastAPI` • `Node.js` • `AWS` • `Google Cloud` • `Docker` • `Kubernetes`
+| Category | Technologies |
+|----------|--------------|
+| **Languages** | Python • Dart • TypeScript • JavaScript • Swift |
+| **AI / ML** | TensorFlow • PyTorch • Scikit-Learn • Transformers |
+| **Mobile** | Flutter • Firebase • Clean Architecture • State Management |
+| **Backend** | FastAPI • Node.js • REST APIs • Microservices |
+| **Cloud & DevOps** | AWS • Google Cloud • Docker • Kubernetes • CI/CD |
 
 ---
-
 ## 🚀 Focus Areas
 
 - Large Language Models (LLMs)  
