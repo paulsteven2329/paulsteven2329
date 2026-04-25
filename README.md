@@ -27,35 +27,35 @@
 
 ---
 
-## 🌟 Key Achievements — STAR Method
+## 🌟 Projects & Achievements — STAR Method
 
-> Each achievement is broken down by **Situation → Task → Action → Result** to show not just *what* I built, but *why* it mattered and *how* I solved it.
+> Each project is broken down by **Situation → Task → Action → Result** to show not just *what* I built, but *why* it mattered and *how* I solved it.
 
 ---
 
-### 🧠 Production RAG AI System — 92% Accuracy
+### 🧠 RAG AI System — 92% Accuracy
 
 **`FastAPI` `FAISS` `LLMs` `Semantic Search` `PostgreSQL`**
 
 | | |
 |---|---|
-| **📍 Situation** | Kinara Capital handled large volumes of financial documents with no intelligent retrieval system. Queries were slow, manual, and error-prone at scale — analysts had to dig through documents by hand. |
-| **🎯 Task** | Architect and ship a production-grade Retrieval-Augmented Generation (RAG) pipeline that could answer domain-specific questions from documents with high accuracy and low latency. |
-| **⚙️ Action** | Designed the full RAG stack from scratch — chunking strategy, vector embeddings via FAISS, a semantic retrieval layer, and LLM-driven answer synthesis. Integrated with FastAPI microservices and tuned prompt chains iteratively based on real query feedback. |
-| **✅ Result** | **92% answer accuracy in production**, processing 1,000+ queries daily. Eliminated manual document lookup across the org and became the core intelligence layer of the platform. |
+| **📍 Situation** | Document-heavy workflows had no intelligent retrieval layer. Searching through large collections of PDFs and structured files was manual, slow, and error-prone — making it impossible to extract answers at scale. |
+| **🎯 Task** | Build a production-grade Retrieval-Augmented Generation pipeline capable of answering domain-specific questions from documents with high accuracy and low latency. |
+| **⚙️ Action** | Designed the full RAG stack from scratch — custom chunking strategy, vector embeddings stored in FAISS, a semantic retrieval layer, and LLM-driven answer synthesis. Exposed the system via a FastAPI backend and tuned prompt chains iteratively based on real query testing. |
+| **✅ Result** | **92% answer accuracy** tested across diverse document types, processing 1,000+ queries daily. Eliminated manual document lookup entirely and became a reusable intelligence module. |
 
 ---
 
-### ⚡ Database Query Performance Overhaul — 77% Faster
+### ⚡ Backend Query Optimization — 77% Faster
 
 **`PostgreSQL` `Query Optimization` `FastAPI` `Backend Architecture`**
 
 | | |
 |---|---|
-| **📍 Situation** | The fintech backend was under heavy transactional load. Slow DB queries were bottlenecking API response times, causing timeouts and degraded UX during peak usage. |
-| **🎯 Task** | Diagnose root causes of query slowdowns and implement lasting performance improvements without disrupting live production systems. |
-| **⚙️ Action** | Profiled slow queries using `EXPLAIN ANALYZE`, restructured missing indexes, rewrote N+1 query patterns, introduced query caching layers, and refactored ORM calls to raw SQL where performance was critical. |
-| **✅ Result** | **77% reduction in query execution time.** APIs that previously timed out under load now responded consistently within SLA targets, directly improving platform reliability. |
+| **📍 Situation** | A transactional backend system was suffering from slow API response times under load. Queries took seconds to return, causing timeouts and a poor experience on data-heavy endpoints. |
+| **🎯 Task** | Diagnose the root causes of performance degradation and implement fixes that would hold up under real production load. |
+| **⚙️ Action** | Profiled every slow query using `EXPLAIN ANALYZE`, restructured missing indexes, rewrote N+1 query patterns, added a caching layer for repeated reads, and converted critical ORM calls to optimized raw SQL. |
+| **✅ Result** | **77% reduction in query execution time.** Endpoints that previously timed out under load now respond consistently within target latency — the fix has held across scaling. |
 
 ---
 
@@ -65,10 +65,10 @@
 
 | | |
 |---|---|
-| **📍 Situation** | A generative image pipeline was running too slowly for production use. Inference latency made it unusable at scale and compute costs were climbing with no clear ceiling. |
-| **🎯 Task** | Optimize the model inference pipeline to deliver faster generation without sacrificing output quality or model accuracy. |
-| **⚙️ Action** | Applied quantization techniques, implemented batching strategies, and exported models to ONNX format. Profiled GPU memory allocation, removed redundant preprocessing steps, and parallelized pipeline stages to maximize throughput. |
-| **✅ Result** | **30% reduction in inference time**, enabling the pipeline to scale within compute budgets and meet production throughput requirements cost-effectively. |
+| **📍 Situation** | A self-built generative image pipeline was too slow to use at scale. Inference latency was high, GPU memory was poorly utilized, and compute costs were growing unsustainably. |
+| **🎯 Task** | Optimize the pipeline end-to-end to cut inference time without sacrificing output quality or model accuracy. |
+| **⚙️ Action** | Applied INT8 quantization, implemented dynamic batching, and exported models to ONNX format for runtime acceleration. Profiled GPU memory allocation, stripped redundant preprocessing steps, and parallelized pipeline stages to maximize throughput per request. |
+| **✅ Result** | **30% reduction in inference time**, bringing the pipeline within production-viable latency budgets. Compute costs dropped proportionally while output quality remained unchanged. |
 
 ---
 
@@ -78,24 +78,23 @@
 
 | | |
 |---|---|
-| **📍 Situation** | Mobile finance apps had sluggish load times and tangled state management. The codebase was hard to maintain and users experienced noticeable lag on dashboard screens. |
-| **🎯 Task** | Re-architect the Flutter application using clean architecture principles while improving rendering performance and real-time data flows. |
-| **⚙️ Action** | Migrated to the BLoC pattern for predictable, testable state management. Implemented lazy loading and widget caching, optimized build methods to reduce unnecessary rebuilds, and integrated efficient real-time WebSocket feeds for live analytics. |
-| **✅ Result** | **25% faster load times**, dramatically improved code maintainability, and real-time analytics updating with sub-second latency across iOS, Android, and Web. |
+| **📍 Situation** | A personal Flutter app built for real-time financial analytics had sluggish load times and messy state management. Screens lagged on startup and the codebase was difficult to extend or test. |
+| **🎯 Task** | Re-architect the app from the ground up using clean architecture and improve rendering performance without breaking existing features. |
+| **⚙️ Action** | Migrated all state to the BLoC pattern for predictable, testable flows. Introduced lazy loading and widget-level caching, eliminated unnecessary rebuild cycles, and replaced polling with efficient WebSocket connections for live data. |
+| **✅ Result** | **25% faster load times**, real-time updates with sub-second latency, and a codebase that's now modular and easy to extend — shipped across iOS, Android, and Web from a single codebase. |
 
 ---
 
-## 💼 Experience
+### 🤖 ML Foundations — 20+ Models Built from Scratch
 
-### AI Engineer & Senior Developer
-**Kinara Capital** · *Feb 2024 – Present* · Bengaluru, India
+**`Python` `PyTorch` `TensorFlow` `Scikit-learn` `NumPy`**
 
-- Architected AI-driven fintech systems processing **1,000+ daily transactions**
-- Built production RAG pipelines and semantic search systems achieving **92% accuracy**
-- Designed and maintained microservices architecture with **FastAPI** and **NestJS**
-- Drove a **77% improvement** in database query performance across core services
-- Mentored junior developers and managed CI/CD pipelines on **Google Cloud**
-- Optimized GenAI inference pipelines, reducing latency by **30%**
+| | |
+|---|---|
+| **📍 Situation** | Wanted a deep, first-principles understanding of machine learning — not just API calls to pre-trained models, but how learning algorithms actually work under the hood. |
+| **🎯 Task** | Build 20+ machine learning models from scratch covering a wide range of algorithms, architectures, and problem types. |
+| **⚙️ Action** | Implemented models spanning linear/logistic regression, decision trees, random forests, SVMs, CNNs, RNNs, and transformers. Each model was built with full forward/backward passes, custom loss functions, and evaluation pipelines — documented for reuse and study. |
+| **✅ Result** | A strong first-principles foundation in ML that directly accelerated every AI project since — from RAG system design to inference optimization and model fine-tuning. |
 
 ---
 
@@ -119,22 +118,6 @@
 
 **DevOps & Cloud**
 `Docker` `Google Cloud` `CI/CD` `Git`
-
----
-
-## 📌 Projects
-
-### RAG AI System
-Production-grade document intelligence built for a fintech platform. Achieved **92% accuracy** using semantic retrieval, FAISS vector store, and LLM-synthesized answers. Handles 1,000+ queries daily.
-
-### GenAI Image Pipeline
-End-to-end generative image pipeline optimized for production. Applied quantization, ONNX export, and parallelized processing to achieve a **30% inference speedup**.
-
-### Flutter Finance Apps
-Real-time financial analytics apps for iOS, Android, and Web. Built with BLoC and clean architecture. Achieved **25% load time improvement** through widget optimization and lazy loading.
-
-### ML Foundations
-Built **20+ machine learning models from scratch** covering supervised learning, neural networks, and model evaluation — forming the foundation for production ML work.
 
 ---
 
