@@ -1,216 +1,242 @@
-[Paul Stephen](#top)
+<div align="center">
 
-[Services](#services) [Projects](#projects) [Approach](#approach) [Tech stack](#stack) [Contact](#contact)
+# Paul Stephen
 
-Available for freelance projects
+### Backend Engineer · Applied AI Systems · Flutter
 
-# AI systems and backends that run reliably in production.
+**Building reliable AI systems and high-performance backends — from architecture to production.**
 
-I'm Paul Stephen, an engineer in Bengaluru. I build document search with RAG, speed up slow APIs, and ship Flutter apps for startups and businesses that need measurable results.
+Based in Bengaluru, India · Open to freelance collaborations
 
-[Email me](mailto:paulsteven2930@gmail.com?subject=Project%20enquiry) [See projects](#projects)
+[![Email](https://img.shields.io/badge/Email-Let's%20talk-00C879?style=for-the-badge&logo=gmail&logoColor=white)](mailto:paulsteven2930@gmail.com?subject=Project%20enquiry)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paul-stephen-sde1-2b974027a)
+[![GitHub](https://img.shields.io/badge/GitHub-Projects-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/paulsteven2329?tab=repositories)
 
-results from production work
+**[Services](#-what-i-build) · [Projects](#-featured-work) · [Architecture](#-system-design-snapshot) · [Tech](#-toolbox) · [Approach](#-how-i-work) · [Contact](#-start-a-conversation)**
 
-| RAG answer accuracy | **92%** |
+</div>
+
+---
+
+## ⚡ Production impact
+
+<div align="center">
+
+| 🎯 Ticket routing | 🚨 SLA breaches | 🔎 Document search |
+| :---: | :---: | :---: |
+| **71% → 97% accuracy** | **~80% reduction** | **~20 min → <10 sec** |
+| 📬 Async throughput | ✅ Delivery reliability | 📊 Daily event volume |
+| **5× · 1,200+ emails/min** | **95.8% → 99.7%** | **50,000+ events** |
+
+</div>
+
+<sub>Production outcomes reported in my professional resume. Metrics reflect distinct systems and measurements.</sub>
+
+## 🧩 What I build
+
+<table>
+<tr><td width="50%" valign="top">
+
+### 🤖 AI & RAG systems
+
+Self-hosted document ingestion, OCR, chunking, hybrid retrieval, and grounded answers.
+
+**Solves:** slow document search, repetitive review, fragmented knowledge.
+
+</td><td width="50%" valign="top">
+
+### 🚀 Backend performance
+
+Profiling and tuning APIs, SQL queries, caching, async workers, and failure recovery.
+
+**Solves:** timeouts, slow database queries, unreliable jobs.
+
+</td></tr>
+<tr><td valign="top">
+
+### 🔌 API & service architecture
+
+Documented REST APIs, maintainable services, reliable integrations, and observability.
+
+**Solves:** fragile integrations and hard-to-change backends.
+
+</td><td valign="top">
+
+### 📱 Flutter apps
+
+Cross-platform mobile and web apps with clear architecture and backend connectivity.
+
+**Solves:** duplicated platform efforts and difficult app maintenance.
+
+</td></tr>
+<tr><td valign="top" colspan="2">
+
+### ⚙️ LLM integration & automation
+
+Use models for classification, extraction, developer tooling, and structured outputs with evaluation and deterministic fallbacks.
+
+**Solves:** manual workflows that can be safely automated.
+
+</td></tr>
+</table>
+
+## 🛠 Featured work
+
+> Expand a project to explore the problem, technical approach, and outcome. Company work is summarized at a high level; public repositories are linked where available.
+
+<details open>
+<summary><b>01 · Enterprise RAG Document Platform — private production work</b> · Document search: ~20 min → &lt;10 sec</summary>
+
+<br>
+
+**Problem:** Teams searched large document collections manually.
+
+**What I built:** A self-hosted ingestion and retrieval pipeline featuring OCR/parsing, chunking, embeddings, hybrid retrieval, FAISS, Ollama, caching, and async job orchestration.
+
+**Reported outcome:** Under-10-second document search and **91% answer relevance** in the evaluation described in my resume.
+
+**Stack:** `Python` `RAG` `FAISS` `Ollama` `Document processing` `Async jobs`
+
+**Design considerations:** Private deployment, grounding, retrieval evaluation, and graceful degradation.
+
+</details>
+
+<details>
+<summary><b>02 · High-Throughput Async Backend — private production work</b> · 5× processing throughput</summary>
+
+<br>
+
+**Problem:** Synchronous processing restricted throughput and recovery from delivery failures.
+
+**What I built:** Python asyncio services with retries, exponential backoff, and dead-letter queue handling.
+
+**Reported outcome:** **200 → 1,200+ emails/min**, **50,000+ events/day**, and delivery reliability **95.8% → 99.7%**.
+
+**Stack:** `Python` `asyncio` `Retry policies` `Dead-letter queues`
+
+**Design considerations:** Idempotency, bounded concurrency, backpressure, and observability.
+
+</details>
+
+<details>
+<summary><b>03 · Agentic Codebase Analyzer — GitHub project</b> · Local developer tooling</summary>
+
+<br>
+
+A multi-stage local agent that traces repository dependencies and generates architecture summaries to accelerate codebase exploration.
+
+**Stack:** `Python` `LangGraph` `LangChain` `Ollama` `FAISS`
+
+[**View source code →**](https://github.com/paulsteven2329/Agentic-Codebase-Analyzer)
+
+</details>
+
+<details>
+<summary><b>04 · MoneyFlowX — GitHub project</b> · Offline-first finance app</summary>
+
+<br>
+
+A Flutter finance application exploring local transaction categorization, anomaly detection, and budgeting workflows.
+
+**Stack:** `Flutter` `Dart` `ML`
+
+[**View source code →**](https://github.com/paulsteven2329/Money-FlowX)
+
+</details>
+
+<details>
+<summary><b>05 · More experiments & repositories</b></summary>
+
+<br>
+
+- [FastAPI experiments](https://github.com/paulsteven2329/FAST_API)
+- [Agentic multimodal AI](https://github.com/paulsteven2329/Agentic-Multimodal-ai)
+- [Generative image tooling](https://github.com/paulsteven2329/GenAI_Image_Generater)
+
+**Additional case studies in preparation:** SQL query optimization, inference optimization, and Flutter load-time performance. Performance percentages from earlier drafts are omitted until benchmark evidence is available.
+
+</details>
+
+## 🏗 System design snapshot
+
+A **conceptual reference architecture** illustrating the type of privacy-first document retrieval system I work with, **not a verbatim diagram of an employer's deployment**.
+
+```mermaid
+flowchart LR
+    A[Documents] --> B[Parse and chunk]
+    B --> C[Embeddings]
+    C --> D[(Vector index)]
+    U[User query] --> E[FastAPI service]
+    E --> F[Hybrid retrieval]
+    D --> F
+    F --> G[Context assembly]
+    G --> H[Self-hosted LLM]
+    H --> I[Grounded response]
+    I --> U
+```
+
+<details>
+<summary><b>Explore architecture trade-offs</b></summary>
+
+- **Privacy:** Run retrieval and inference locally where data sensitivity requires it.
+- **Quality:** Evaluate retrieval relevance and grounded answer behavior with representative queries.
+- **Latency:** Use caching and asynchronous ingestion for expensive or repeated operations.
+- **Reliability:** Add fallbacks, rate limits, retries, monitoring, and operational runbooks where applicable.
+
+</details>
+
+## 🧰 Toolbox
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+
+</div>
+
+| Area | Technologies and practices |
 | --- | --- |
-| Query execution time | **−77%** |
-| Inference latency | **−30%** |
-| Mobile app load time | **−25%** |
-| Daily transactions handled | **1,000+** |
-| Production systems shipped | **20+** |
+| **Backend** | Python, FastAPI, asyncio, REST, Node.js, microservices |
+| **AI / ML** | RAG, embeddings, Ollama, LangChain, LangGraph, FAISS, pgvector, PyTorch |
+| **Data** | PostgreSQL, MongoDB, Redis |
+| **Frontend / mobile** | Flutter, Dart, React |
+| **Infrastructure** | AWS, Docker, Nginx, Linux, GitHub Actions |
+| **Engineering** | Caching, retries, observability, rate limiting, distributed systems |
 
-## What I can build for you
+## 🧭 How I work
 
-Five areas where I take a problem from diagnosis to a system running in production.
+```mermaid
+flowchart LR
+    A[Discover] --> B[Prototype]
+    B --> C[Build]
+    C --> D[Measure]
+    D --> E[Document & hand off]
+```
 
-### AI and RAG systems
+**Discover:** Understand the problem and define success criteria. **Prototype:** Validate the most uncertain assumptions early. **Build:** Implement maintainable services, tests, and operational safeguards. **Measure:** Compare to the baseline. **Hand off:** Document decisions and trade-offs.
 
-Retrieval pipelines that let your team ask questions of its own documents, data and knowledge bases and get accurate, grounded answers.
+## 👤 A little about me
 
-**Fixes:** slow document search, expensive manual review, knowledge scattered across files.
+**AI Backend Engineer at Kinara Capital** (Feb 2024 – present). I work across ML-assisted ticket intelligence, enterprise retrieval, and asynchronous backend services.
 
-### Backend performance
+**Education:** BCA, Kristu Jayanti College, Bengaluru (2021–2024).
 
-I find the cause of slow APIs and database bottlenecks and fix it, so response times stay steady as traffic grows.
+## ✉️ Start a conversation
 
-**Fixes:** timeouts under load, slow queries, N+1 patterns, weak database design.
+Need document search, a faster backend, AI workflow integration, or a Flutter app? Share the problem, constraints, and what success should look like.
 
-### API development and architecture
+<div align="center">
 
-Clean, documented REST APIs and microservices that integrate well and that your team can extend without fear.
+[![Discuss a project](https://img.shields.io/badge/Discuss_a_project-Email_me-00C879?style=for-the-badge&logo=gmail&logoColor=white)](mailto:paulsteven2930@gmail.com?subject=Project%20enquiry)
 
-**Fixes:** fragile integrations, unmaintainable backends, tangled responsibilities.
+[LinkedIn](https://www.linkedin.com/in/paul-stephen-sde1-2b974027a) · [GitHub](https://github.com/paulsteven2329) · Bengaluru, India
 
-### Flutter mobile apps
+<sub>Made for GitHub's native Markdown renderer. Some visual elements load from shields.io; expandable sections use native GitHub-supported HTML.</sub>
 
-One codebase for iOS, Android and Web, with clean architecture, real-time data and polished UX.
-
-**Fixes:** separate native codebases, sluggish apps, messy state management.
-
-### LLM integration and automation
-
-Language models wired into your existing workflows to automate repetitive work and produce structured output.
-
-**Fixes:** manual processes that should be automated, high labor cost on repetitive tasks.
-
-## Selected projects
-
-Each one started with a business problem and ended with a number.
-
-### RAG AI system
-
-92% answer accuracy
-
-- FastAPI
-- FAISS
-- LLMs
-- Semantic search
-- PostgreSQL
-
-#### Problem
-
-Searching large collections of PDF and structured files was manual, slow and error-prone.
-
-#### What I built
-
-A full RAG pipeline: custom chunking, FAISS embeddings, semantic retrieval and LLM answer synthesis behind a FastAPI backend, tuned against real queries across document types.
-
-#### Result
-
-92% answer accuracy in production at 1,000+ queries a day, replacing manual document lookup.
-
-### Backend query optimization
-
-77% faster queries
-
-- PostgreSQL
-- FastAPI
-- Query optimization
-- Caching
-
-#### Problem
-
-A transactional backend returned data-heavy endpoints in seconds and timed out under load.
-
-#### What I built
-
-Profiled every slow query with EXPLAIN ANALYZE, added missing indexes, rewrote N+1 patterns, added a caching layer and moved critical ORM calls to optimized SQL.
-
-#### Result
-
-77% less query execution time. Endpoints that timed out now respond within target latency and have held as traffic scaled.
-
-### GenAI image pipeline
-
-30% faster inference
-
-- PyTorch
-- ONNX
-- HuggingFace
-- Model optimization
-- Google Cloud
-
-#### Problem
-
-A generative image pipeline had high latency, poor GPU use and growing compute costs.
-
-#### What I built
-
-INT8 quantization, dynamic batching and ONNX export for faster runtime, plus GPU memory profiling, parallel pipeline stages and removal of redundant preprocessing.
-
-#### Result
-
-30% lower inference latency and proportionally lower compute cost, with no loss in output quality.
-
-### Flutter finance app
-
-25% faster load time
-
-- Flutter
-- Dart
-- BLoC
-- Clean architecture
-- WebSockets
-
-#### Problem
-
-A real-time financial analytics app started slowly, managed state poorly and was too fragile to extend.
-
-#### What I built
-
-Re-architected with BLoC for predictable state, added lazy loading and widget-level caching, removed needless rebuilds and replaced polling with WebSockets.
-
-#### Result
-
-25% faster loads, sub-second live updates and a modular codebase shipped to iOS, Android and Web from one repo.
-
-## How I work
-
-### Production first
-
-I build systems meant to run in the real world, not demos.
-
-### Performance from the start
-
-Speed and efficiency are design inputs, not a cleanup task at the end.
-
-### End-to-end ownership
-
-I take responsibility for the whole solution, from architecture to deployment.
-
-### Clear communication
-
-You always know the status, the trade-offs and the timeline.
-
-### Fast iteration
-
-I move quickly without cutting corners, and I ship things that work.
-
-### Results over output
-
-I care about the business outcome, not the number of lines delivered.
-
-### Who I can help
-
-- **Startups** building MVPs that need to be production-ready from day one.
-- **Businesses** with manual workflows that should be automated.
-- **Teams** whose backends are slow and need expert diagnosis.
-- **Founders** exploring how to bring AI into their product in a meaningful way.
-- **Companies** that need a reliable Flutter app on every platform.
-
-## Tech stack
-
-AI / ML
-
-RAG systems, LLM integration, semantic search, prompt engineering, PyTorch, HuggingFace, TensorFlow, FAISS, ONNX
-
-Backend
-
-FastAPI, NestJS, Node.js, Django, REST APIs, microservices
-
-Databases
-
-PostgreSQL, MongoDB, vector databases, FAISS
-
-Mobile
-
-Flutter, Dart, BLoC, clean architecture for iOS, Android and Web
-
-Languages
-
-Python, Dart, TypeScript, JavaScript
-
-DevOps and cloud
-
-Docker, Google Cloud, CI/CD, Git
-
-## Tell me what you're building
-
-If a system needs to be faster, smarter or actually built, I'm taking on freelance projects. I reply within 24 hours.
-
-[paulsteven2930@gmail.com](mailto:paulsteven2930@gmail.com?subject=Project%20enquiry)
-
-[LinkedIn](https://www.linkedin.com/in/paul-stephen-sde1-2b974027a) [GitHub](https://github.com/paulsteven2329) +91 91088 00104
-
-Paul Stephen, Bengaluru, India
+</div>
